@@ -1,0 +1,222 @@
+{
+  "servers": [
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder HK",
+      "address": "hongkong.route.place",
+      "port": 30330,
+      "method": "chacha20-ietf-poly1305",
+      "password": "428718219491"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder TW",
+      "address": "tw.route.place",
+      "port": 30351,
+      "method": "chacha20-ietf-poly1305",
+      "password": "429015057032"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder JP",
+      "address": "osaka.route.place",
+      "port": 30336,
+      "method": "chacha20-ietf-poly1305",
+      "password": "428803030217"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder DE",
+      "address": "frankfurt.route.place",
+      "port": 30347,
+      "method": "chacha20-ietf-poly1305",
+      "password": "428958516548"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder SG",
+      "address": "singapore.route.place",
+      "port": 30353,
+      "method": "chacha20-ietf-poly1305",
+      "password": "429043327274"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder US",
+      "address": "losangeles.route.place",
+      "port": 30353,
+      "method": "chacha20-ietf-poly1305",
+      "password": "429043327274"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Ladder BC(back to china)",
+      "address": "guangdong.route.place",
+      "port": 30330,
+      "method": "chacha20-ietf-poly1305",
+      "password": "428718219491"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "USA CC1",
+      "address": "c60s1.portablesubmarines.com",
+      "port": 22996,
+      "method": "aes-256-gcm",
+      "password": "Dar5VbcvewmvACPS"
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "USA CC2",
+      "address": "c60s2.portablesubmarines.com",
+      "port": 22996,
+      "method": "aes-256-gcm",
+      "password": "Dar5VbcvewmvACPS"
+    },
+    {
+      "type": "trojan",
+      "remark": "Trojan US",
+      "address": "fus001.cdnfast.click",
+      "port": 443,
+      "password": "62b5254d-4441-4de9-9f6b-2f57099274cb",
+      "tls": 1
+    },
+    {
+      "type": "trojan",
+      "remark": "Trojan DE",
+      "address": "fgr001.cdnfast.click",
+      "port": 443,
+      "password": "62b5254d-4441-4de9-9f6b-2f57099274cb",
+      "tls": 1
+    },
+    {
+      "type": "shadowsocks",
+      "remark": "Lagom RU",
+      "address": "pro-ru-yt.emrata.top",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "IHTXDDs7nLezgBCwcUXmjSjvS7QSRI"
+    },
+    {
+      "type": "vless",
+      "remark": "JET B",
+      "address": "212.7.207.4",
+      "port": 443,
+      "uuid": "859b7d71-a9fc-4234-8e03-42eb876a170a",
+      "net": "tcp",
+      "tls": 1,
+      "sni": "icloud.com",
+      "pbk": "jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM",
+      "sid": "8c01e365"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind US1",
+      "address": "www.4chan.org",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/?ed=2560",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind US2",
+      "address": "www.udacity.com",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/?ed=2560",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind US3",
+      "address": "xn--b6gac.eu.org",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/?ed=2560",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind US4",
+      "address": "bestcf.onecf.eu.org",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/?ed=2560",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind US5",
+      "address": "cf.090227.xyz",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/?ed=2560",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind SG-SG",
+      "address": "www.visa.com.sg",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/pyip=proxyip.sg.fxxk.dedyn.io",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind SG-JP",
+      "address": "www.visa.com.sg",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/pyip=proxyip.jp.fxxk.dedyn.io",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind SG-HK",
+      "address": "www.visa.com.sg",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/pyip=proxyip.hk.fxxk.dedyn.io",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind SG-Aliyun",
+      "address": "www.visa.com.sg",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/pyip=proxyip.aliyun.fxxk.dedyn.io",
+      "host": "node3.rwindsite.xyz"
+    },
+    {
+      "type": "vless",
+      "remark": "Polar Wind SG-US",
+      "address": "www.visa.com.sg",
+      "port": 8443,
+      "uuid": "6823d791-6e07-4c6c-8686-210a8772c280",
+      "net": "ws",
+      "tls": 1,
+      "path": "/pyip=proxyip.us.fxxk.dedyn.io",
+      "host": "node3.rwindsite.xyz"
+    }
+  ]
+}
